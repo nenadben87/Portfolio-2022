@@ -48,7 +48,7 @@ body {
   align-items: center;
 }
 
-.name-social{
+.name-social {
   background-color: var(--dark-color);
   color: var(--light-color);
   display: flex;

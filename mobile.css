@@ -1,5 +1,5 @@
 
-@media(min-width: 360px) and (max-width: 540px) {
+@media(min-width: 360px) and (max-width: 1279px){
   .container {
     margin: 1rem;
     overflow: hidden;
@@ -33,6 +33,12 @@
    .port-icons button {
     width: 91vw;
   } 
+
+  .resume-box-title h4,
+  .work-box-title h4,
+  .contact-box-title h4 {
+    display: none;
+  }
 
   /* ///// Home Box ////// */
   .home-box {
@@ -152,5 +158,275 @@
 
   .contact-option {
     margin-bottom: 2rem;
+  }
+}
+
+@media(min-width: 375px) and (max-width: 1279px){
+  .image {
+    width: 100%;
+    height: 370px;
+  }
+
+  .work-box-below {
+    padding-left: 1.5rem;
+  }
+}
+
+@media(min-width: 390px) and (max-width: 1279px){
+  .image {
+    width: 100%;
+    height: 390px;
+  }
+
+  .skill-images .img {
+    left: 30px;
+  }
+
+  .work-box-below {
+    padding-left: 2rem;
+  }
+}
+
+@media(min-width: 412px) and (max-width: 1279px){
+  .image {
+    width: 100%;
+    height: 410px;
+  }
+
+  .skill-images .img {
+    left: 40px;
+  }
+
+  .work-box-below {
+    padding-left: 2.5rem;
+  }
+}
+
+@media(min-width: 540px) and (max-width: 1279px){
+  .image {
+    width: 100%;
+    height: 550px;
+  }
+
+  .skill-images .img {
+    left: 100px;
+  }
+
+  .image-pr {
+    margin-left: 1px;
+  }
+
+  .image-pr img {
+    width: 420px;
+    height: 360px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1279px){
+  .container {
+    margin: 1rem;
+    overflow: hidden;
+  }
+  
+  .box-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    height: 390px;
+  }
+
+  .name-social {
+    width: 100%;
+  }
+
+  .my-title {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .port-icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+   .port-icons button {
+    width: 6.2rem;
+    font-size: 0.5rem;
+  } 
+
+  .resume-box-title h4,
+  .work-box-title h4,
+  .contact-box-title h4 {
+    display: block;
+  }
+
+  .skill-images .img {
+    left: 230px;
+  }
+
+  .image-pr {
+    margin-left: 1px;
+  }
+
+  .image-pr img {
+    width: 650px;
+    height: 500px;
+  }
+
+  .contact-box-below {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+}
+
+@media(min-width: 820px) and (max-width: 1279px){
+  .image-pr {
+    margin-left: 1.8rem;
+  }
+
+  .image {
+    width: 100%;
+    height: 410px;
+  }
+
+  .port-icons button {
+    padding-top: 1.4rem;
+    padding-bottom: 1.6rem;
+  }
+}
+
+@media(min-width: 912px) and (max-width: 1279px){
+  .image {
+    width: 40%;
+    height: 520px;
+  }
+
+  .right-content {
+    width: 60%;
+    height: 520px;
+  }
+
+  .name-social {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .my-title {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .port-icons button {
+    padding-left: 4.1rem;
+    padding-right: 4.1rem;
+  }
+
+  .skill-images .img {
+    left: 300px;
+  }
+
+  .image-pr {
+    margin-left: 1px;
+  }
+
+  .image-pr img {
+    width: 800px;
+    height: 550px;
+  }
+}
+
+@media(min-width: 1024px) and (max-width: 1279px){
+  .my-title {
+    font-size: 1.2rem;
+    padding-bottom: 2.1rem;
+  }
+
+  .port-icons button {
+    padding-left: 4.6rem;
+    padding-right: 4.7rem;
+    padding-bottom: 1.4rem;
+    font-size: 0.8rem;
+  }
+
+  .skill-images .img {
+    left: 250px;
+  }
+
+  .skill-images h3,
+  .skill-images hr {
+    margin-left: 300px;
+  }
+
+  .home-box-below {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .resume-box-below {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .work-box-below {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 4rem;
+  }
+
+  .image-pr img {
+    width: 420px;
+    height: 330px;
+  }
+}
+
+@media(max-width: 539px) {
+  .other-projects {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(min-width: 1280px) and (max-width: 1360px){
+  .box-1 {
+    width: 106.7%;
+ }
+
+  .home-box-title,
+  .home-box-below,
+  .resume-box-title,
+  .resume-box-below,
+  .work-box-title,
+  .work-box-below,
+  .contact-box-title,
+  .contact-box-below {
+    width: 100%;
+  }
+}
+
+@media(min-width: 1367px) {
+  .box-1 {
+    width: 100%;
+ }
+
+  .home-box-title,
+  .home-box-below,
+  .resume-box-title,
+  .resume-box-below,
+  .work-box-title,
+  .work-box-below,
+  .contact-box-title,
+  .contact-box-below {
+    width: 100.5%;
+  }
+}
+
+@media(min-width: 1440px) {
+  .container {
+    margin-left: 700px;
   }
 }

@@ -91,6 +91,13 @@ function toggleContact() {
   workBox.classList.remove('active-work');
 }
 
+ const otherProjects = document.querySelector('.other-projects');
+
+ if(window.innerWidth < 540) {
+   otherProjects.innerHTML = `<div>To see more projects</div>
+   <div>check <a href="https://github.com/nenadben87"> My Github profile</a></div>`;
+ }
+
 
 
 
