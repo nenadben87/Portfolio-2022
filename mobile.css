@@ -408,10 +408,12 @@
   }
 }
 
-@media(min-width: 1367px) {
-  .box-1 {
-    width: 100%;
- }
+/* Media Queries for larger Screens */
+
+@media(min-width: 1440px) and (max-width: 1535px){
+  .container {
+    margin-left: 160px;
+  }
 
   .home-box-title,
   .home-box-below,
@@ -421,12 +423,192 @@
   .work-box-below,
   .contact-box-title,
   .contact-box-below {
-    width: 100.5%;
+    width: 1100px;
+  }
+
+  .other-projects {
+    width: 1100px;
   }
 }
 
-@media(min-width: 1440px) {
+@media(min-width: 1536px){
   .container {
-    margin-left: 700px;
+    margin-left: 208px;
+  }
+
+  .home-box-title,
+  .home-box-below,
+  .resume-box-title,
+  .resume-box-below,
+  .work-box-title,
+  .work-box-below,
+  .contact-box-title,
+  .contact-box-below {
+    width: 1100px;
+  }
+
+  .other-projects {
+    width: 1100px;
+  }
+}
+
+@media(min-width: 1600px){
+  .container {
+    margin-left: 240px;
+  }
+
+  .home-box-title,
+  .home-box-below,
+  .resume-box-title,
+  .resume-box-below,
+  .work-box-title,
+  .work-box-below,
+  .contact-box-title,
+  .contact-box-below {
+    width: 1100px;
+  }
+}
+
+@media(min-width: 1920px){
+  .container {
+    margin-left: 200px;
+  }
+  
+  .box-1 {
+    width: 1600px;
+  }
+
+  .image {
+    width: 500px;
+    height: 577px;
+  }
+
+  .right-content {
+    width: 1000px;
+    height: 500px;
+  }
+
+  .name-social {
+    width: 1000px;
+    height: 370px;
+  }
+
+  .name-social h1 {
+    font-size: 3rem;
+    padding-bottom: 40px;
+  }
+
+  .name-social h4 {
+    font-size: 2rem;
+  }
+
+  #social {
+    padding-bottom: 100px;
+  }
+
+  .my-title {
+    width: 1000px;
+  }
+
+  .my-title h2 {
+    font-size: 3rem;
+  }
+
+  .port-icons {
+    width: 1000px;
+  }
+
+  #btn-home,
+  #btn-resume,
+  #btn-work,
+  #btn-contact {
+    width: 250px;
+    height: 85px;
+  }
+
+  #btn-home span,
+  #btn-resume span,
+  #btn-work span,
+  #btn-contact span {
+    font-size: 2rem;
+  }
+
+  .home-box-title,
+  .home-box-below,
+  .resume-box-title,
+  .resume-box-below,
+  .work-box-title,
+  .work-box-below,
+  .contact-box-title,
+  .contact-box-below {
+    width: 1500px;
+  }
+
+  .home-box-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .home-box-title h4 {
+    font-size: 1.5rem;
+  }
+  .resume-box-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .resume-box-title h4 {
+    font-size: 1.5rem;
+  }
+  .work-box-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .work-box-title h4 {
+    font-size: 1.5rem;
+  }
+  .contact-box-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-box-title h4 {
+    font-size: 1.5rem;
+  }
+
+  .home-box-below .personal-info ul li {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+  }
+
+  .skill-images h3 {
+    font-size: 2rem;
+  }
+
+  .skill-images h3 hr {
+    margin-bottom: 3rem;
+  }
+
+  .image-pr {
+    margin-left: 4rem;
+  }
+
+  .image-pr .before {
+    width: 84%;
+  }
+
+  .other-projects {
+    width: 1500px;
+  }
+
+  .contact-option h3 {
+    font-size: 2rem;
+  }
+
+  .contact-option p {
+    font-size: 2rem;
+  }
+}
+
+@media(min-width: 2560px){
+  .container {
+    margin-left: 500px;
   }
 }
