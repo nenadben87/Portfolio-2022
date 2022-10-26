@@ -21,9 +21,9 @@ function toggleHome() {
   const incRepos = setInterval(() => {
     incRep++;
 
-    if(incRep > 38) {
+    if(incRep > 42) {
       clearInterval(incRepos);
-      incRep = 39;
+      incRep = 43;
     }
 
     repo.innerText = `${incRep}`;
